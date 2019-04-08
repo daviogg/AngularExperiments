@@ -1,0 +1,5 @@
+<div class="body-container">
+  <input [(ngModel)]="username">
+  <p>{{username}}</p>
+  <button class="btn btn-primary" (click)="resetUsr()" [disabled]="isEmptyUsr()">Reset</button>
+</div>
