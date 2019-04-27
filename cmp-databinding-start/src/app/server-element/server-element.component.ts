@@ -9,8 +9,10 @@ export class ServerElementComponent implements OnInit {
   
 
   @Input('srvElement') element: { type: string, name: string, content: string };
-  
-  constructor() { }
+ 
+  constructor() {
+    console.log("Constructor Log!");
+  }
 
   ngOnInit() {
   }
