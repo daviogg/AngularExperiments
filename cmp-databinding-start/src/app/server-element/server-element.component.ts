@@ -26,7 +26,7 @@ ElementRef{
 
   @Input('srvElement') element: { type: string, name: string, content: string };
   @Input() name : string;
-  @ViewChild('header') header : ElementRef;
+  @ViewChild('heading') header : ElementRef;
   @ContentChild('contentParagraph') paragraph : ElementRef;
   constructor() {
     console.log("Constructor Log!");
