@@ -67,17 +67,13 @@ ElementRef{
     console.log("ngAfterViewInit Log!");
     console.log('Text content:' + this.header.nativeElement.textContent);
     console.log('Text content of paragraph:' + this.paragraph.nativeElement.textContent);
-
-
   }
   ngAfterViewChecked(){
     console.log("ngAfterViewChecked Log!");
-    
   }
 
   ngOnDestroy(){
     console.log("ngOnDestroy Log!");
-    
   }
 
 }
